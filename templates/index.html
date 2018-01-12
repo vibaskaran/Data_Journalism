@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<html>
+
+<head>
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- Custom CSS -->
+	<!-- <link rel="stylesheet" type="text/css" href='{{ url_for("static", filename="styles.css") }}'> -->
+	<link rel="stylesheet" href="../static/style.css">
+	
+
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<title>Data Journalism</title>
+</head>
+
+<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-6  col-md-12">
+					<div class="iframeContainer">
+						<div class="embed-responsive embed-responsive-4by3">
+							<iframe class="embed-responsive-item" src="d3"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+</body>
+
+</html>

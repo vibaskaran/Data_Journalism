@@ -1,3 +1,3 @@
 # Data_Journalism
 
-# This is for the project developed for D3 Visualaization in Rutgers Bootcamp 
+# This is for the project developed for D3 Visualization in Rutgers Bootcamp 
